@@ -1,0 +1,10 @@
+import Adafruit_DHT
+import RPi.GPIO as GPIO
+GPIO.setmode (GPIO.BOARD)
+while True:
+           humiditytemp = Adafruit_DHT.read_
+           retry (Adafruit_DHT.DHT11,2)
+ 
+           print(humidity,temperature)
+
+GPIO.cleanup()
